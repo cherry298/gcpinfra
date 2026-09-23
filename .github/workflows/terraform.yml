@@ -38,7 +38,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: Infrastructure
+        working-directory: infrastructure
     steps:
       - name: Checkout
         uses: actions/checkout@v4
